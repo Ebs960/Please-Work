@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c14b936369a17b458cdbb9681f801d9, type: 3}
+  m_Name: France
+  m_EditorClassIdentifier: 
+  civName: France
+  civColor: {r: 0.0199715, g: 0.8136592, b: 0.9622642, a: 0}
+  leaderPrefab: {fileID: 0}
+  cityPrefab: {fileID: 602593199851021157, guid: c047cd5babd9d6049b8522b023852cb5, type: 3}
+  unitPrefab: {fileID: 6307095994410785377, guid: 51d0e04f4802a32429077df0c53cf5fb, type: 3}
+  bonusGold: 0
+  bonusProduction: 0
+  bonusScience: 0
+  bonusCulture: 5
+  bonusFood: 0
+  cityNames:
+  - Paris
+  - Nice
+  - Marseille
+  availableUnits:
+  - {fileID: 11400000, guid: 963399acb75ea2a4aaebb2cfa8cc9d5f, type: 2}
+  - {fileID: 11400000, guid: 77bd50b38e508c8489f776663e1b5d4d, type: 2}
+  availableBuildings:
+  - {fileID: 11400000, guid: cae8c4907ca7dac419cffbea8ee7c7b4, type: 2}

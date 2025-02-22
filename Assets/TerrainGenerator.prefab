@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8920040538151273820
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 643721255177116851}
+  - component: {fileID: 332384632088680037}
+  m_Layer: 0
+  m_Name: TerrainGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &643721255177116851
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8920040538151273820}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.9862288, y: -0.02062197, z: 11.130243}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &332384632088680037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8920040538151273820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0528ae89a1c3208498667ed9dee22571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waterPrefab: {fileID: 1534581253652046883, guid: 5c33dfa4f136968499e5d241b81865b5, type: 3}
+  riverPrefab: {fileID: 0}
+  plainsPrefab: {fileID: 2418715009009928219, guid: f1216ec9652d8ea4195859a0f7ec226f, type: 3}
+  hillsPrefab: {fileID: 8070189021737493033, guid: 3750988b84c27e740883fc00697fc8a1, type: 3}
+  mountainsPrefab: {fileID: 6168765121265936827, guid: 60f1fc449bb93de4887edf2b5297a71d, type: 3}
+  desertPrefab: {fileID: 4346963843390716371, guid: 596216c2d214b234fb886429a608aacc, type: 3}
+  tundraPrefab: {fileID: 2119112565532387543, guid: b6b7da2f8d7ebe54190f879e801aa7f0, type: 3}
+  taigaPrefab: {fileID: 6783430254327034583, guid: ff45ac9999f692440be581c73a556c95, type: 3}
+  tropicalPrefab: {fileID: 5191397044963022344, guid: 86b31210c152d2848a65e3b48a7a7136, type: 3}
+  aridPrefab: {fileID: 4722713870899284747, guid: 06271f93be804aa46843419ed1ebc39e, type: 3}
+  alpinePrefab: {fileID: 6712066833498684723, guid: 444fbc9940c1d414bb105f7eaca6e714, type: 3}
+  tribePrefab: {fileID: 0}
+  numberOfTribes: 5
+  cityYOffset: 1
+  tribalNames:
+  - Apache
+  - Sioux
+  - Iroquois
+  - Cheyenne
+  - Comanche
+  - Navajo
+  - Cherokee
+  - Seminole
+  - Blackfoot
+  - Mohawk
+  populationRange: {x: 50, y: 300}
+  defense: 5
+  production: 3
+  gold: 10
+  food: 10
+  science: 2
+  culture: 2
+  manpower: 5
+  hillHeightThreshold: 4
+  mountainHeightThreshold: 6
+  alpineHeightThreshold: 6
+  minWaterHeight: 0
+  maxWaterHeight: 1
+  width: 50
+  depth: 50
+  heightMultiplier: 10
+  heightNoiseScale: 3
+  moistureNoiseScale: 2
+  temperatureNoiseScale: 2
+  minElevation: 0
+  maxElevation: 6
+  minTemperature: 0
+  maxTemperature: 1
+  hotTemperatureThreshold: 0.7
+  coldTemperatureThreshold: 0.3
+  minMoisture: 0
+  maxMoisture: 1
+  wetMoistureThreshold: 0.7
+  dryMoistureThreshold: 0.3
+  heightBias: 1
+  numberOfRivers: 3

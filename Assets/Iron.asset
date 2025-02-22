@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 858efbb304938d04fafafc422638b35d, type: 3}
+  m_Name: Iron
+  m_EditorClassIdentifier: 
+  resourceName: Iron Ore
+  resourceIcon: {fileID: 21300000, guid: dc7c3afcd68ae4d408ac1dd721b7b395, type: 3}
+  description: Iron is hard. Very hard.
+  foodYield: 0
+  productionYield: 7
+  goldYield: 1
+  scienceYield: 0
+  cultureYield: 0
+  requiredTechnology: {fileID: 0}
+  unlockedUnit: {fileID: 0}

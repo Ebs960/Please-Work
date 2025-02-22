@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfe4188127d017e4295c1240a44adee8, type: 3}
+  m_Name: Settler
+  m_EditorClassIdentifier: 
+  unitName: Settler
+  productionCost: 20
+  unitPrefab: {fileID: 6307095994410785377, guid: 51d0e04f4802a32429077df0c53cf5fb, type: 3}
+  description: A settler settles land. Duh
+  baseHealth: 10
+  baseAttack: 1
+  baseDefense: 0
+  baseMoveSpeed: 5
+  baseRange: 1
+  unitClass: 1
+  movementPoints: 3
+  attackPoints: 0
+  canMoveOnSurface: 1
+  canMoveOnWater: 0
+  canMoveOnRivers: 0
+  canMoveInSky: 0
+  canMoveInMantle: 0
+  canMoveInCore: 0
+  canMoveInOrbit: 0
+  icon: {fileID: 21300000, guid: 3af2367bbba8115478f53ac476e54736, type: 3}
